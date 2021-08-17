@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary_lib", "Dictionary_lib\Dictionary_lib.csproj", "{9A3E75DD-68E2-4634-90DC-4704CA26F5C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cli_App_test", "cli_App_test\cli_App_test.csproj", "{0349954A-5802-47B0-A554-CF5F3991826E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomDict", "RomDict\RomDict.csproj", "{BDE80E58-5121-49F7-8FE0-FF96249FC8C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A3E75DD-68E2-4634-90DC-4704CA26F5C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3E75DD-68E2-4634-90DC-4704CA26F5C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3E75DD-68E2-4634-90DC-4704CA26F5C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3E75DD-68E2-4634-90DC-4704CA26F5C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0349954A-5802-47B0-A554-CF5F3991826E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0349954A-5802-47B0-A554-CF5F3991826E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0349954A-5802-47B0-A554-CF5F3991826E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0349954A-5802-47B0-A554-CF5F3991826E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDE80E58-5121-49F7-8FE0-FF96249FC8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE80E58-5121-49F7-8FE0-FF96249FC8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE80E58-5121-49F7-8FE0-FF96249FC8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE80E58-5121-49F7-8FE0-FF96249FC8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,53 @@
+﻿<Window x:Class="RomDict.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RomDict"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="100" />
+            </Grid.ColumnDefinitions>
+            <ScrollViewer>
+                <RichTextBox x:Name="HistoryWords" VerticalContentAlignment="Top" HorizontalContentAlignment="Left"
+                             Margin="2" Background="White" />
+            </ScrollViewer>
+
+            <ScrollViewer Grid.Row="0" Grid.Column="1">
+                <RichTextBox x:Name="outTranslations" VerticalContentAlignment="Top"
+                             HorizontalContentAlignment="Left" Margin="2" Background="White" />
+            </ScrollViewer>
+            <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Vertical">
+                <CheckBox x:Name="СBox1" Content="EN-RU" />
+                <CheckBox x:Name="СBox2" Content="RU-EN" />
+                <CheckBox x:Name="СBox3" Content="FR-RU" />
+                <CheckBox x:Name="СBox4" Content="RU-FR" />
+                <CheckBox x:Name="СBox5" Content="Словарь 1" />
+
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+         <Grid.ColumnDefinitions>
+             <ColumnDefinition Width="*"/>
+             <ColumnDefinition Width="100"/>
+         </Grid.ColumnDefinitions>
+            <RichTextBox x:Name="InputText" Margin="2" />
+            <Button Grid.Column="1" x:Name="btnTranslate" Content="Перевести" Margin="2" />
+        </Grid>
+    </Grid>
+</Window>
